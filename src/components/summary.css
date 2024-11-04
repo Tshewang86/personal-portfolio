@@ -1,0 +1,97 @@
+.summary-container {
+  margin-top: 80px;
+  font-family: Arial, sans-serif; /* Consistent font style */
+}
+
+.summary-header {
+  text-align: center;
+  color: #f0f0f0; /* Brighter text color for visibility */
+}
+
+.summary-back-btn {
+  margin-bottom: 20px;
+  color: #f0f0f0; /* Brighter text color */
+}
+
+.summary-title {
+  font-size: 2rem;
+  color: #ffffff; /* High contrast for readability */
+  font-weight: bold;
+}
+
+.summary-description {
+  font-size: 1.1rem;
+  color: #f8f8f8; /* Improved readability */
+}
+
+.summary-section {
+  border: 1px solid #e0e0e0;
+  width: 80%;
+  border-radius: 8px;
+  padding: 30px;
+  margin-left: 10%;
+  margin-top: 20px;
+  background-image: linear-gradient(135deg, purple, black);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary-section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  color: #ffffff; /* High contrast */
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.summary-image {
+  width: 60%; /* Further reduced size */
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.summary-image:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.details-title {
+  font-size: 1.2rem;
+  color: #00cca7; /* Clearer color */
+  margin-top: 10px;
+}
+
+.link-text {
+  color: #007bff; /* Clearer text color */
+  font-style: italic;
+}
+
+.list-group .list-item {
+  background-color: #ffffff;
+  color: #333; /* Text color */
+  border-left: 4px solid #007bff;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-family: Arial, sans-serif; /* Consistent font style */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-group .list-item:hover {
+  background-color: #e6f2ff;
+  transform: translateX(5px);
+}
+
+.summary-details p,
+.section-title,
+.summary-description {
+  line-height: 1.6;
+  color: #ffffff; /* High contrast */
+  font-family: Arial, sans-serif; /* Consistent font style */
+  flex: 1,
+}
